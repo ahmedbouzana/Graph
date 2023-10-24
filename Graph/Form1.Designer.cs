@@ -82,11 +82,11 @@
             // valider
             // 
             this.valider.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.valider.Location = new System.Drawing.Point(177, 59);
+            this.valider.Location = new System.Drawing.Point(196, 59);
             this.valider.Name = "valider";
-            this.valider.Size = new System.Drawing.Size(75, 23);
+            this.valider.Size = new System.Drawing.Size(87, 23);
             this.valider.TabIndex = 0;
-            this.valider.Text = "Valider";
+            this.valider.Text = "Rechercher";
             this.valider.UseVisualStyleBackColor = true;
             this.valider.Click += new System.EventHandler(this.valider_Click);
             // 
@@ -94,26 +94,26 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 61);
+            this.label4.Location = new System.Drawing.Point(8, 61);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 16);
+            this.label4.Size = new System.Drawing.Size(99, 16);
             this.label4.TabIndex = 60;
-            this.label4.Text = "Ocr / Noeud : ";
+            this.label4.Text = "N° Ocr / Noeud : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 31);
+            this.label3.Location = new System.Drawing.Point(8, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 16);
+            this.label3.Size = new System.Drawing.Size(99, 16);
             this.label3.TabIndex = 59;
-            this.label3.Text = "N° District : ";
+            this.label3.Text = "N° STE (District) :";
             // 
             // tb_ocr
             // 
             this.tb_ocr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_ocr.Location = new System.Drawing.Point(93, 59);
+            this.tb_ocr.Location = new System.Drawing.Point(112, 59);
             this.tb_ocr.MaxLength = 7;
             this.tb_ocr.Name = "tb_ocr";
             this.tb_ocr.Size = new System.Drawing.Size(79, 21);
@@ -123,7 +123,7 @@
             // 
             // tb_district
             // 
-            this.tb_district.Location = new System.Drawing.Point(93, 29);
+            this.tb_district.Location = new System.Drawing.Point(112, 29);
             this.tb_district.MaxLength = 3;
             this.tb_district.Name = "tb_district";
             this.tb_district.Size = new System.Drawing.Size(48, 20);
@@ -394,16 +394,16 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
             this.label1.Location = new System.Drawing.Point(22, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(350, 18);
+            this.label1.Size = new System.Drawing.Size(225, 18);
             this.label1.TabIndex = 67;
-            this.label1.Text = "Graph V1.0.      DD Chlef Nord - Division Téchnique Electricité";
+            this.label1.Text = "Graph V1.1.      Sonelgaz CD Chlef - DTE";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Graph.Properties.Resources._187743_100002222418596_2705003_q;
+            this.pictureBox1.Image = global::Graph.Properties.Resources.nmsnk5l6;
             this.pictureBox1.Location = new System.Drawing.Point(1, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(18, 20);
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 66;
             this.pictureBox1.TabStop = false;

@@ -845,7 +845,7 @@ namespace Graph
                     l4.Text = "Fonction";
                     l5.Text = "P.m.d.";
                     l6.Text = "Puissance";
-                    ll7.Text = "Transformateur:";
+                    ll7.Text = d + "P" + p + "\nTransfo(s):";
                     while (rd.Read())
                     {
                         date1 = (rd["an_mes"].ToString().Length >= 10 ? rd["an_mes"].ToString().Substring(0, 10) : "/");
